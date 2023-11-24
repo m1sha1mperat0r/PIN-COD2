@@ -1,0 +1,49 @@
+@media screen and (max-width: 1199px) {
+	.img-box {
+		width: 90vw;
+		column-count: 3;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	.img-box {
+		width: 100vw;
+		column-count: 2;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.img-box {
+		column-count: 1;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.img-link {
+		transition: 0.5s ease-in-out
+	}
+	.img-link:hover {
+/*		Размытие*/
+		filter: blur(20px);*/
+/*		Яркость*/
+/*		filter: brightness(1.5);*/
+/*		Контрасность*/
+/*		filter: contrast(140%);*/
+/*		Отбрасывание тени*/
+/*		filter: drop-shadow(-50px 0 1px red);*/
+/*		Перевод вчёрно-белое*/
+/*		filter: grayscale(1.5);*/
+/*		Насыщенность цветов*/
+/*		filter: saturate(200%); */
+/*		Сепия (эффект старины)*/
+/*		filter: sepia(1.5);*/
+/*		Инверсия цветов*/
+/*		filter: invert(1.5);*/
+/*		Изменение цветового оттенка*/
+/*		filter: hue-rotate(90deg);*/
+/*		Прозрачность*/
+/*		filter: opacity(50%);*/
+/*		SVG-фильтр*/
+/*		filter: url(filter.svg#MyFilter);*/
+	}
+}
